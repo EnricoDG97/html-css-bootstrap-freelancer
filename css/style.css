@@ -19,3 +19,8 @@ a {
     color: white;
     cursor: pointer;
 }
+
+.__first-section {
+    color: white;
+    background-color: #1abc9c;
+}
