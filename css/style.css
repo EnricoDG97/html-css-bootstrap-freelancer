@@ -24,3 +24,7 @@ a {
     color: white;
     background-color: #1abc9c;
 }
+
+p.h1, p.h2 {
+    text-transform: uppercase;
+}
