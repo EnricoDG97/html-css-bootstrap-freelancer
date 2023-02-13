@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Exercise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- NAV START HERE -->
     <nav class="__nav">
         <div class="container-lg">
             <div class="row justify-content-between p-3 align-items-center">
@@ -31,21 +33,30 @@
             </div>
         </div>
     </nav>
+    <!-- MAIN START HERE -->
     <main>
+        <!-- FIRST SECTION -->
         <section class="__first-section">
             <div class="container-lg">
-                <div class="text-center">
+                <div class="d-flex flex-column align-items-center">
                     <img src="#" class="rounded" alt="img">
                     <p class="h1">start bootstrap</p>
-                    <span><hr></span>
+                    <hr class="m-auto mb-4">   <!-- TEST -->
                     <span><p>graphic artist - web designer - illustrator</p></span>
                 </div>
             </div>
         </section>
+        <!-- SECOND SECTION -->
         <section class="__second-section">
-            <div class="container-lg text-center">
-                <p class="h2">portfolio</p>
-                <span><hr></span>
+            <div class="container-lg">
+                <div class="row row-cols-1 text-center">
+                    <div class="col">
+                        <p class="h2">portfolio</p>
+                    </div>
+                    <div class="col">
+                        <hr class="m-auto mb-4"> <!-- TEST -->
+                    </div>
+                </div>
                 <div class="row row-cols-3 flex-row __test">
                     <div class="col-4 __test">
                         <img src="" alt="">
@@ -68,8 +79,23 @@
                 </div>
             </div>
         </section>
-        <section>
-
+        <!-- THIRD SECTION -->
+        <section class="__third-section">
+            <div class="container-lg d-flex flex-column align-items-center">
+                <p class="h2">about</p>
+                <hr class="m-auto mb-4">   <!-- TEST -->
+                <div class="row row-cols-2 pb-3">
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, incidunt deleniti perspiciatis natus eaque pariatur perferendis veniam! Ratione odio eius facilis ipsa soluta quae! Quos debitis nemo sunt accusantium dolorum!</p>
+                    </div>
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nisi veritatis vero non atque minus nostrum! Repudiandae quas, adipisci quis maxime necessitatibus reprehenderit similique, aperiam debitis hic a, ipsa pariatur?</p>
+                    </div>
+                </div>
+                <button class="btn btn-light" type="submit"> 
+                    <i class="fa-solid fa-download"></i> Download 
+                </button>
+            </div>
         </section>
 
     </main>

@@ -20,11 +20,22 @@ a {
     cursor: pointer;
 }
 
-.__first-section {
+section {
+    padding: 2em 0;
+    /* test */
+}
+
+.__first-section, .__third-section {
     color: white;
     background-color: #1abc9c;
 }
 
 p.h1, p.h2 {
     text-transform: uppercase;
+}
+
+hr {
+    /* test */
+    border: black 2px solid;
+    width: 30%;
 }
