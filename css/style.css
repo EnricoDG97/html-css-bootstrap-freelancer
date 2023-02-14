@@ -1,9 +1,3 @@
-.__test {
-    border: 1px solid black;
-    background-color: rgba(00, 00, 00, 0.2);
-}
-
-
 .__no_mb {
     margin-bottom: 0;
     width: 100%;
@@ -11,8 +5,6 @@
 
 .__nav {
     background-color: #2c3e50;
-    /* test */
-    color: white;
 }
 
 a {
@@ -29,29 +21,21 @@ a {
     object-fit: cover;
 }
 
-section {
-    padding: 2em 0;
-    /* test */
-}
-
 .__first-section, .__third-section {
     background-color: #1abc9c;
 }
 
 hr {
-    /* test */
     border: black 2px solid;
     width: 30%;
 }
 
 .footer-top {
     background-color: #3a546d;
-    color: white;
 }
 
 .footer-bottom {
     background-color: #2c3e50;
-    color: white;
 }
 
 .icon-frame {
@@ -67,12 +51,6 @@ hr {
     position: absolute;
     top: 25%;
     left: 25%;
-}
-
-.footer-top .container-lg .row .col .row .col:first-child {
-    text-transform: uppercase;
-    font-weight: 600;
-    padding-bottom: 1em;
 }
 
 hr {
