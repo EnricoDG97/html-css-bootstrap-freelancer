@@ -20,18 +20,21 @@ a {
     cursor: pointer;
 }
 
+#avatar {
+    max-width: 200px;
+}
+
+#avatar img {
+    object-fit: cover;
+}
+
 section {
     padding: 2em 0;
     /* test */
 }
 
 .__first-section, .__third-section {
-    color: white;
     background-color: #1abc9c;
-}
-
-p.h1, p.h2 {
-    text-transform: uppercase;
 }
 
 hr {
